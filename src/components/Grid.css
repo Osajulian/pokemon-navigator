@@ -1,0 +1,13 @@
+.tiles {
+	display: flex;
+	flex-direction: rows;
+
+	flex-wrap: wrap;
+	background-image: url('./../assets/grasstile.png');
+}
+.tiles > .tile {
+	
+	border-bottom: dashed 1px #222;
+	border-right: dashed 1px #222;
+	position: relative;
+}

@@ -1,0 +1,54 @@
+.type.start {
+	background-image: url('./../assets/bulbasaur.png');
+}
+.type.finish {
+	background-image: url('./../assets/finishtile.png');
+}
+.type.rock {
+	background-image: url('./../assets/rocktile.png');
+}
+.type.grass {
+	background-image: url('./../assets/grasstile.png');
+}
+.type {
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+.nav-path {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+}
+.nav-path:after {
+	font-size: 32px;
+    text-align: center;
+    display: block;
+    line-height: 27px;
+}
+
+.path-UR:after, .path-RU:after {
+	content: "↗";
+}
+.path-UL:after,.path-LU:after {
+	content: "↖";
+}
+.path-DR:after, .path-RD:after {
+	content: "↘";
+}
+.path-DL:after, .path-LD:after {
+	content: "↙";
+}
+.path-U:after {
+	content: "↑";
+}
+.path-D:after {
+	content: "↓";
+}
+.path-R:after {
+	content: "→"
+}
+.path-L:after {
+	content: "←"
+}

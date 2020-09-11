@@ -1,0 +1,14 @@
+.form-control [type=radio]:checked + label {
+    outline: 2px solid #f00;
+    display: inline-block;
+}
+
+.select-type {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 200px;  
+}
+
+.select-type input[type='radio'] {
+    display: none;
+}

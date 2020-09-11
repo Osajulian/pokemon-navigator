@@ -1,0 +1,34 @@
+.modal-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+}
+.modal-close {
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 15px;
+    border-radius: 0 10px 0 0;
+    width: 30px;
+    background-color: rgb(182, 0, 0);
+}
+.modal-item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    min-height: 300px;
+    padding: 20px;
+}
+.modal-item h3 {
+    text-align: center;
+}
+.modal-bg {
+    background-color: rgba(34, 34, 34, 0.7);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+}
